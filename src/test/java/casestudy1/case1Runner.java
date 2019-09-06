@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 	//@CucumberOptions( monochrome=true,plugin = { "html:myreports" }, tags = "@sanity")
 	//@CucumberOptions(monochrome=true,plugin = {"pretty","json: jsonreport.json" })
 	// @CucumberOptions(monochrome=true,plugin= {"html:myreports"})
-@CucumberOptions(monochrome=true,plugin = {"junit: xmlreport.xml" })
+@CucumberOptions(monochrome=true,plugin = {"json: case1.json" })
 public class case1Runner {
 	}
 
